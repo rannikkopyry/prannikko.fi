@@ -9,9 +9,8 @@ import Pyry from "../images/pyry.png"
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-
+  textAlign: "center"
 }
 
 const headingStyles = {
@@ -86,11 +85,11 @@ const badgeStyle = {
 }
 
 const linkStackStyles = {
-
+  display: "grid"
 }
 
 const linksStyles = {
-  padding: "4px",
+  display: "table-cell"
 }
 
 const IndexPage: React.FC<PageProps> = () => {
