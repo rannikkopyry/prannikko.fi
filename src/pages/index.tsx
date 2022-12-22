@@ -10,7 +10,8 @@ import Pyry from "../images/pyry.png"
 const pageStyles = {
   color: "#232129",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  textAlign: "center"
+  textAlign: "center",
+  marginTop: "50px"
 }
 
 const headingStyles = {
