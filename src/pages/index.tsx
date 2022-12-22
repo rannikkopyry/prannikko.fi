@@ -5,12 +5,15 @@ import Github from "../images/Github.png"
 import Twitter from "../images/twitter.png"
 import Instagram from "../images/instagram.png"
 import Mail from "../images/mail.png"
+import Pyry from "../images/pyry.png"
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  textAlign: "center",
+  marginTop: "50px"
 }
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
@@ -82,34 +85,61 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
+const linkStackStyles = {
+  display: "grid"
+}
+
+const linksStyles = {
+  display: "table-cell"
+}
+
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
+      <div>
+      <img
+        alt="LinkedIn logo"
+        src={Pyry}
+        width="250px"
+      />  
+      </div>
+      <div style={linkStackStyles}>
+      <a href="https://www.linkedin.com/in/pyry-rannikko-770368217/" style={linksStyles}>
       <img
         alt="LinkedIn logo"
         src={LinkedIn}
         width="30px"
       />
+      </a>
+      <a href="https://github.com/rannikkopyry" style={linksStyles}>
       <img
         alt="Github logo"
         src={Github}
         width="30px"
       />
+      </a>
+      <a href="mailto:pyry.rannikko1@gmail.com" style={linksStyles}>
       <img
-        alt="LinkedIn logo"
+        alt="Gmail logo"
         src={Mail}
         width="30px"
       />
+      </a>
+      <a href="https://twitter.com/PyryRannikko" style={linksStyles}>
       <img
-        alt="LinkedIn logo"
+        alt="Twitter logo"
         src={Twitter}
         width="30px"
       />
+      </a>
+      <a href="https://www.instagram.com/rannikkopyry/" style={linksStyles}>
       <img
-        alt="LinkedIn logo"
+        alt="Instagram logo"
         src={Instagram}
         width="30px"
       />
+      </a>
+      </div>
     </main>
   )
 }
