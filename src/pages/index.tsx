@@ -1,7 +1,7 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import LinkedIn from "../images/linkedin.png"
-import Github from "../images/Github.png"
+import Github from "../images/github.png"
 import Twitter from "../images/twitter.png"
 import Instagram from "../images/instagram.png"
 import Mail from "../images/mail.png"
