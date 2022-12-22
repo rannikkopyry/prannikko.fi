@@ -5,6 +5,7 @@ import Github from "../images/Github.png"
 import Twitter from "../images/twitter.png"
 import Instagram from "../images/instagram.png"
 import Mail from "../images/mail.png"
+import Pyry from "../images/pyry.png"
 
 const pageStyles = {
   color: "#232129",
@@ -85,31 +86,48 @@ const badgeStyle = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
+      <div>
+      <img
+        alt="LinkedIn logo"
+        src={Pyry}
+        width="250px"
+      />  
+      </div>
+      <a href="https://www.linkedin.com/in/pyry-rannikko-770368217/">
       <img
         alt="LinkedIn logo"
         src={LinkedIn}
         width="30px"
       />
+      </a>
+      <a href="">
       <img
         alt="Github logo"
         src={Github}
         width="30px"
       />
+      </a>
+      <a href="">
       <img
-        alt="LinkedIn logo"
+        alt="Gmail logo"
         src={Mail}
         width="30px"
       />
+      </a>
+      <a href="">
       <img
-        alt="LinkedIn logo"
+        alt="Twitter logo"
         src={Twitter}
         width="30px"
       />
+      </a>
+      <a href="">
       <img
-        alt="LinkedIn logo"
+        alt="Instagram logo"
         src={Instagram}
         width="30px"
       />
+      </a>
     </main>
   )
 }
