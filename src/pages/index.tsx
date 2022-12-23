@@ -19,7 +19,7 @@ const linkStackStyles = {
 
 const linksStyles = {
   display: "table-cell"
-}
+} 
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
