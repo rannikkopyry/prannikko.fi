@@ -6,6 +6,7 @@ import Twitter from "../images/twitter.png"
 import Instagram from "../images/instagram.png"
 import Mail from "../images/mail.png"
 import Pyry from "../images/pyry.png"
+import Job from "../images/job.png"
 
 const pageStyles = {
   color: "#232129",
@@ -65,6 +66,13 @@ const IndexPage: React.FC<PageProps> = () => {
         alt="Instagram logo"
         src={Instagram}
         width="30px"
+      />
+      </a>
+      <a href="https://www.rpsolutions.fi/" style={linksStyles}>
+      <img
+        alt="Man at a desk icon"
+        src={Job}
+        width="50px"
       />
       </a>
       </div>
