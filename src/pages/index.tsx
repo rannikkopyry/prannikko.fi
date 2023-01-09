@@ -6,7 +6,7 @@ import Twitter from "../images/twitter.png"
 import Instagram from "../images/instagram.png"
 import Mail from "../images/mail.png"
 import Pyry from "../images/pyry.png"
-import Job from "../images/job.png"
+import Briefcase from "../images/briefcase.jpeg"
 
 import "./index.css"
 
@@ -19,10 +19,11 @@ const pageStyles = {
 }
 const linkStackStyles = {
   display: "grid",
+  marginTop: "20px"
 }
 
 const linksStyles = {
-  display: "table-cell",
+  margin: "20px"
 } 
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -36,6 +37,7 @@ const IndexPage: React.FC<PageProps> = () => {
       />  
       </div>
       <div style={linkStackStyles}>
+      <div>
       <a href="https://www.linkedin.com/in/pyry-rannikko-770368217/" style={linksStyles}>
       <img
         alt="LinkedIn logo"
@@ -50,6 +52,8 @@ const IndexPage: React.FC<PageProps> = () => {
         width="50px"
       />
       </a>
+      </div>
+      <div>
       <a href="mailto:pyry.rannikko1@gmail.com" style={linksStyles}>
       <img
         alt="Gmail logo"
@@ -64,6 +68,8 @@ const IndexPage: React.FC<PageProps> = () => {
         width="50px"
       />
       </a>
+      </div>
+      <div>
       <a href="https://www.instagram.com/rannikkopyry/" style={linksStyles}>
       <img
         alt="Instagram logo"
@@ -74,10 +80,11 @@ const IndexPage: React.FC<PageProps> = () => {
       <a href="https://www.rpsolutions.fi/" style={linksStyles}>
       <img
         alt="Man at a desk icon"
-        src={Job}
-        width="85px"
+        src={Briefcase}
+        width="50px"
       />
       </a>
+      </div>
       </div>
     </main>
   )
