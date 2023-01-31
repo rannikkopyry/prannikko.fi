@@ -85,6 +85,9 @@ const IndexPage: React.FC<PageProps> = () => {
       />
       </a>
       </div>
+      <p>Working on:</p>
+      <a href="https://www.formitor.com/" style={linksStyles}>formitor.com</a>
+      <a href="https://www.motorlinks.io/" style={linksStyles}>motorlinks.io</a>
       </div>
     </main>
   )
