@@ -7,6 +7,7 @@ import Instagram from "../images/instagram.png"
 import Mail from "../images/mail.png"
 import Pyry from "../images/pyry.png"
 import Briefcase from "../images/briefcase.jpeg"
+import Medium from "../images/medium.png"
 
 import "./index.css"
 
@@ -31,17 +32,17 @@ const IndexPage: React.FC<PageProps> = () => {
     <main style={pageStyles}>
       <div>
       <img
-        alt="LinkedIn logo"
+        alt="Pyry"
         src={Pyry}
         width="250px"
       />  
       </div>
       <div style={linkStackStyles}>
       <div>
-      <a href="https://www.linkedin.com/in/pyry-rannikko-770368217/" style={linksStyles}>
+      <a href="https://www.instagram.com/rannikkopyry" style={linksStyles}>
       <img
-        alt="LinkedIn logo"
-        src={LinkedIn}
+        alt="Instagram logo"
+        src={Instagram}
         width="50px"
       />
       </a>
@@ -70,21 +71,28 @@ const IndexPage: React.FC<PageProps> = () => {
       </a>
       </div>
       <div>
-      <a href="https://www.instagram.com/rannikkopyry/" style={linksStyles}>
+      <a href="https://www.linkedin.com/in/pyry-rannikko-770368217/" style={linksStyles}>
       <img
-        alt="Instagram logo"
-        src={Instagram}
+        alt="LinkedIn logo"
+        src={LinkedIn}
         width="50px"
       />
       </a>
       <a href="https://www.rpsolutions.fi/" style={linksStyles}>
       <img
-        alt="Man at a desk icon"
+        alt="Briefcase icon"
         src={Briefcase}
         width="50px"
       />
       </a>
       </div>
+      <a href="https://www.medium.com/@pyryrannikko" style={linksStyles}>
+      <img
+        alt="Medium logo"
+        src={Medium}
+        width="150px"
+      />
+      </a>
       <p>Working on:</p>
       <a href="https://www.formitor.com/" style={linksStyles}>formitor.com</a>
       <a href="https://www.motorlinks.io/" style={linksStyles}>motorlinks.io</a>
